@@ -8,10 +8,11 @@ public class Utility {
     // Use substring
     public static String zipZap(String strTwoLetters){
      String strRemoveletter;
-     strRemoveletter = strTwoLetters.substring(0, 2);
-
+     int intCount;
+     for (intCount = 0; intCount <= 3; intCount++){
+     strRemoveletter = strTwoLetters.substring(intCount, intCount-1);
     }
-    return strRemoveletter
-
+    return strRemoveletter;
 }
+
 }
