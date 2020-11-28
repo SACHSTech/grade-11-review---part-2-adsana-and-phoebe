@@ -3,13 +3,15 @@ import java.io.*;
 
 public class Utility {
 
-public static void main(String[] args) throws IOException{
-    
 
-    public static String zipZap(String strWord){
-
+    // Create a method to print out first and last letters of a 3 letter word
+    // Use substring
+    public static String zipZap(String strTwoLetters){
+     String strRemoveletter;
+     strRemoveletter = strTwoLetters.substring(0, 2);
 
     }
+    return strRemoveletter
 
 }
 }
