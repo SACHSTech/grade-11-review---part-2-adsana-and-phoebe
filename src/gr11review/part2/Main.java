@@ -7,14 +7,16 @@ public class Main{
 
 		BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
 
+    Utility.zipZap(strWord);
     String strTwoLetters;
+    String strWord;
     String strInput;
     System.out.println("Give a 3 letter word");
     strInput = keyboard.readLine();
 
-    strInput = Utility.zipZap(strTwoLetters);
+    strTwoLetters = Utility.zipZap(strWord);
 
-    System.out.println("ZipZap --> " +Utility.zipZap(strTwoLetters));
+    System.out.println("ZipZap --> " +strTwoLetters);
 
 
   }
