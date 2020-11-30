@@ -7,7 +7,7 @@ public class Utility{
 
 
     // Create a method to print out first and last letters of a 3 letter word
-    // Use substring
+    // Use substring to print out the letters we want
     public static String zipZap(String strWord){
       String strLetter1;
       String strLetter2;
@@ -22,19 +22,36 @@ public class Utility{
     return strTwoLetters;
     }
 
-    TextInputFile words;
-    words = new TextInputFile("words.txt");
+    
+    TextInputFile words = new TextInputFile("words.txt");
 
     public static String longestword(String strWordstxt){
         String strWords;
         String strLongestWord;
-        int intLength;
-        intLength = strWords.length();
-        int intCount; 
-         for (intCount = 0; intCount <= intLength; intCount++){
-            strLongestWord = strWord
-         }
-          
+        // finding the longest word in the file 
+        // no word can be longer than the longest word so will print the highest one
+        if (strWords.length() > strLongestWord.length()){
+          strWords = strLongestWord;
+        }
+    return strLongestWord;
     }
-}
+
+    public static int[] tenRun(int[] nums){
+      int intNums;
+      int intCount;
+
+      for(intCount = 0; intCount < intNums.length(); intCount++){
+         // Check if numbers are multiples of 10
+         intNums[intCount] % 10 == 0;
+          // check if the net number is a multiple of 10
+          if(intNums[intCount + 1] % 10 != 0){
+            intNums[intCount + 1] = intNums[intCount];
+          }
+        }
+        return intNums;
+      }
+
+
+    }
+
 
