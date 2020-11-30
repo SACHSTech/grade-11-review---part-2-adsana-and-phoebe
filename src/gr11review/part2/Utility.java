@@ -22,6 +22,19 @@ public class Utility{
     return strTwoLetters;
     }
 
-    
+    TextInputFile words;
+    words = new TextInputFile("words.txt");
+
+    public static String longestword(String strWordstxt){
+        String strWords;
+        String strLongestWord;
+        int intLength;
+        intLength = strWords.length();
+        int intCount; 
+         for (intCount = 0; intCount <= intLength; intCount++){
+            strLongestWord = strWord
+         }
+          
+    }
 }
 
