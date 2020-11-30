@@ -50,8 +50,23 @@ public class Utility{
         }
         return intNums;
       }
+    public static linearIn(int[] outer, int[] inner){
+      int intCount1;
+      int intCount2; 
+      int intInner;
+      int intOuter;
 
-
+      // increasing values for both outer and inner
+      for (intCount1 = 0; intCount1 < intInner; intCount1++){
+      for (intCount2 = 0; intCount2 < intOuter; intCount2++){
+          // create the restriction that both values have to be there in order for it to be true
+          if (intInner[] == intOuter[]){
+            return true;
+          }else{ 
+            return false;
+          }
+      }
+      }
     }
 
-
+}
