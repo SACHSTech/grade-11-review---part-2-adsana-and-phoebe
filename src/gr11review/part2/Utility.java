@@ -68,5 +68,9 @@ public class Utility{
       }
       }
     }
+    public static void pascalTri(int i, int j){
+        
+
+    }
 
 }
