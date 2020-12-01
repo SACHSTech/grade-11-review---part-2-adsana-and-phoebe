@@ -51,6 +51,13 @@ public class Utility{
     return strLongestWord;
     }
 
+    /**
+    * continue multiples of 10 in each row
+    * @param Nums  The numbers in the array
+    * @param Count  counter variable
+    * @author Adsana 
+    */
+
     public static int[] tenRun(int[] nums){
       int intNums;
       int intCount;
@@ -65,6 +72,16 @@ public class Utility{
         }
         return intNums;
       }
+
+      /**
+    * print true if inner numbers are in the outer numbers
+    * @param Count 1  counter variable
+    * @param Count 2  counter variable
+    * @param Inner    Inner numbers
+    * @param Outer    Outer numbers
+    * @author Adsana 
+    */
+
     public static linearIn(int[] outer, int[] inner){
       int intCount1;
       int intCount2; 
@@ -83,6 +100,8 @@ public class Utility{
       }
       }
     }
+
+    
     public static void pascalTri(int i, int j){
         // Create pascal triangle in grid from using arrays 
         int intPascalTri[][] = { {1,1,1,1,1,1,1,1,1,1},
