@@ -32,10 +32,9 @@ public class Utility{
     }
 
      /**
-    * remove the middle letter
-    * @param String 1  The first letter
-    * @param String 2  The last letter
-    * @param String 2  Both letters 
+    * print longest word in file
+    * @param String 1  The words 
+    * @param String 2  The longest word
     * @author Adsana 
     */
     
