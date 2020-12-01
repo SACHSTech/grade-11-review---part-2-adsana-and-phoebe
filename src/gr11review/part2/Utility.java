@@ -80,7 +80,20 @@ public class Utility{
                                  {1,8,36,120,330,792,1716,3432,6435,11440},
                                  {1,9,45,165,495,1287,3003,6435,12870,24310},
                                  {1,10,55,220,715,2002,5005,11440,24310,48620}};
+            
+            // create a loop to print these rows and columns out
+            // create a empty println for rows' for loops so it can print out each row separately
+            // put a space for columns' for loops so theres spaces between each number
+            int inti;
+            int intj;
 
+            for (inti = 0; intsi < 10; inti++){
+              System.out.println();
+              for (intj = 0; intj < 10; intj++){
+                System.out.println(intPascalTri[i][j] +" ");            
+               }
+            }
+        
     }
 
 }
