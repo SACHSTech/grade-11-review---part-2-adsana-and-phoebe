@@ -5,6 +5,15 @@ import jdk.internal.jshell.tool.resources.l10n;
 
 public class Utility{
 
+    /**
+    * remove the middle letter
+    * @param String 1  The first letter
+    * @param String 2  The last letter
+    * @param String 2  Both letters 
+    * @author Adsana 
+    */
+
+
 
     // Create a method to print out first and last letters of a 3 letter word
     // Use substring to print out the letters we want
@@ -22,6 +31,13 @@ public class Utility{
     return strTwoLetters;
     }
 
+     /**
+    * remove the middle letter
+    * @param String 1  The first letter
+    * @param String 2  The last letter
+    * @param String 2  Both letters 
+    * @author Adsana 
+    */
     
     TextInputFile words = new TextInputFile("words.txt");
 
