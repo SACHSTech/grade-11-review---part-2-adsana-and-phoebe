@@ -100,8 +100,14 @@ public class Utility{
       }
       }
     }
-
     
+    /**
+    * print Pascal triangle in grid form
+    * @param Int i  The rows
+    * @param Int j  The columns
+    * @author Adsana 
+    */
+
     public static void pascalTri(int i, int j){
         // Create pascal triangle in grid from using arrays 
         int intPascalTri[][] = { {1,1,1,1,1,1,1,1,1,1},
@@ -121,7 +127,7 @@ public class Utility{
             int inti;
             int intj;
 
-            for (inti = 0; intsi < 10; inti++){
+            for (inti = 0; inti < 10; inti++){
               System.out.println();
               for (intj = 0; intj < 10; intj++){
                 System.out.println(intPascalTri[i][j] +" ");            
